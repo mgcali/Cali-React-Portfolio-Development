@@ -2,9 +2,9 @@ import React from 'react';
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import About from './Components/About';
+import Skills from './Components/Skills';
 import LandingPage from './Components/LandingPage';
-import TopNav from './Components/TopNav';
+
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Portfolio from './Components/Portfolio';
 import Connect from './Components/Connect';
@@ -23,7 +23,7 @@ function App() {
         <div className='content'>
          <Routes>
           <Route path="/" element={<LandingPage />} />
-          <Route path="/about" element={<About />} /> 
+          <Route path="/skills" element={<Skills />} /> 
           <Route path="/portfolio" element={<Portfolio />} /> 
           <Route path="/blog" element={<Blog />} />
           <Route path="/connect" element={<Connect />} />

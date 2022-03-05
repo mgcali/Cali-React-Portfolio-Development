@@ -6,6 +6,10 @@ import { useSpring,  animated } from 'react-spring';
 import Logo from '../Media/Logo.gif';
 import ReactTypingEffect from 'react-typing-effect';
 import Avatar from '../Media/avatar.jpg';
+import DownloadIcon from '@mui/icons-material/Download';
+
+
+
 
  function LandingPage() {
      const styles = useSpring({ 
@@ -35,6 +39,7 @@ import Avatar from '../Media/avatar.jpg';
       <div className='row'>
         <h1 className='p-4 mb-3'>About me!</h1>
         <br/>
+       
             <div className="col-md-6 mb-4">
               <img src={Avatar} className="img-fluid z-depth-1-half rounded-circle w-75" alt="man with brown hair and brown eyes, green camo jacket smiling" ></img>
             </div>
@@ -46,6 +51,10 @@ import Avatar from '../Media/avatar.jpg';
             <p>
               With a strong leadership background and <strong>years</strong> of high-quality customer service experience, I'm the right fit for any business looking to create high quality products and services that will leave your customer highly-satisfied. 
             </p>
+            <div className=' btn btn-outline-white'>
+            <p><a className='text-white'  href="https://www.matthewcali.com/files/MatthewCaliResume.pdf" target="_blank" download="MatthewCaliResume" rel='noreferrer'>Download Resume
+            <i class="text-white"><DownloadIcon></DownloadIcon></i></a></p>
+            </div>
             </div>
         
             </div>

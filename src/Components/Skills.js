@@ -1,10 +1,8 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../App.css';
 import Container from 'react-bootstrap/Container';
 
 
-export default function About() {
+export default function Skills() {
   return (
     <Container className='text-center text-white p-5'>
     <div className='col-sm-12 bg-dark bg-opacity-75'> 

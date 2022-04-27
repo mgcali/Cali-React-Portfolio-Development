@@ -13,9 +13,9 @@ export default function Skills() {
       <h1> Skills </h1>
       <p>Here are some of my current languages and technical knowledge. Like technology, my skills are always evolving to keep up with the latest technologies.</p>
        
-            <img src={BarGraph} alt="language bar graph"/>
+            <img src={BarGraph} className="img-fluid" alt="language bar graph"/>
             <br/> <br/>
-            <img src={Diagram} alt="technical knowledge chart"/>
+            <img src={Diagram} className="img-fluid" alt="technical knowledge chart"/>
             
             </div>
     </MDBContainer>

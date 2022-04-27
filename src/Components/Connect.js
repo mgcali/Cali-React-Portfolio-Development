@@ -101,7 +101,7 @@ export default function Connect() {
             </ul>
         </div>
         <div><p>Let's connect on LinkedIn!</p></div>
-        <a href="https://www.linkedin.com/in/matthew-cali-8b417a217/" class="nav-link waves-effect waves-light" target="_blank">
+        <a href="https://www.linkedin.com/in/matthew-cali-8b417a217/" class="nav-link waves-effect waves-light" target="_blank" rel="noreferrer">
               <i class="fab fa-linkedin"></i>
             </a>
     </div>

@@ -11,7 +11,7 @@ import Connect from './Components/Connect';
 import Blog from './Components/Blog';
 import Background from './Components/Background';
 import TopNav2 from './Components/TopNav2';
-import ContactForm from './Components/ContactForm';
+
 
 
 

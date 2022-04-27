@@ -12,7 +12,7 @@ export default function Blog() {
       <h1>This Page is Under Construction</h1>
       <img src={UnderConstruction} style={ {height:'40%', width: '40%'}} alt="under construction"></img><br/><br/>
       <p>This page will be updated soon using the WordPress API to automatically retrieve and load articles directly from my blog</p>
-      <p>Until then: check out the link to my <a href='https://mgcali.wordpress.com/blog-2/' target='_blank' rel='noreferrer'>blog!</a></p>
+      <p>Until then - check out the link to my <a href='https://mgcali.wordpress.com/blog-2/' target='_blank' rel='noreferrer'>blog!</a></p>
       </div>
     </Container>
   )

@@ -1,7 +1,7 @@
 import React from 'react';
 import BarGraph from '../Media/Languages.mp4';
 import Diagram from '../Media/techknowledge.mp4';
-import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
+import { MDBContainer } from "mdbreact";
 
 
 export default function Skills() {

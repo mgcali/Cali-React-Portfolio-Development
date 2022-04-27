@@ -11,15 +11,19 @@ import Connect from './Components/Connect';
 import Blog from './Components/Blog';
 import Background from './Components/Background';
 import TopNav2 from './Components/TopNav2';
+import ContactForm from './Components/ContactForm';
 
 
 
 function App() {
   return (
-    <Router>
-    <div className="App">
+   <div className="App"> 
+   
+   <Router>
+    
        <Background />
         <TopNav2 />
+        
         <div className='content'>
          <Routes>
           <Route path="/" element={<LandingPage />} />
@@ -35,8 +39,8 @@ function App() {
         
         
       
-    </div>
-    </Router>
+  
+    </Router>  </div>
   );
 }
 

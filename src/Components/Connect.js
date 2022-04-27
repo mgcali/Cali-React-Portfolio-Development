@@ -1,26 +1,24 @@
 import React from 'react';
-
+import Logo from '../Media/Logo.gif';
 import '../App.css';
 import Container from 'react-bootstrap/Container';
-import { useSpring,  animated } from 'react-spring';
+
 
 
 export default function Connect() {
-  const styles = useSpring({ 
-    from: { opacity: 0,}, 
-    to: { opacity: 1, },
-    config: { delay: 7000, duration:3500,} })
+  
   return (
     <Container className='text-white text-center p-4 '>
     <br /> <br />
 
 
-    <animated.div style={styles} className='bg-dark bg-opacity-75 p-3'>
+    <div className='bg-dark bg-opacity-75 p-3'>
       
+      
+      <img src={Logo} height='200' width='200' alt='matthew cali logo'></img>
       <h2 className="h1-responsive font-weight-bold text-center my-4">Contact </h2>
-    
     <p className="text-center w-responsive mx-auto mb-5">Like what you see? Feel free to reach out to me and I will promptly get back to you.</p>
-
+    
     <div className="row">
 
        
@@ -87,6 +85,8 @@ export default function Connect() {
         
         <div class="col-md-3 text-center">
             <ul class="list-unstyled mb-0">
+                
+                <br/>
                 <li><i class="fas fa-map-marker-alt fa-2x"></i>
                     <p>Youngsville, NC 27596, USA</p>
                 </li>
@@ -100,10 +100,13 @@ export default function Connect() {
                 </li>
             </ul>
         </div>
-        
-
+        <div><p>Let's connect on LinkedIn!</p></div>
+        <a href="https://www.linkedin.com/in/matthew-cali-8b417a217/" class="nav-link waves-effect waves-light" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
     </div>
-    </animated.div>
+    </div>
+    
     </Container>
   )
 }

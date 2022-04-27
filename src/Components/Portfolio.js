@@ -5,9 +5,11 @@ import Giraffe from '../Media/giraffe.png';
 import Biltmore from '../Media/biltmore.png';
 import Bulldog from '../Media/bulldog.png'
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
+import PortfolioPic from '../Media/portfolio.PNG';
 
 export default function Portfolio() {
   return (
+    
     <MDBContainer className='text-white text-center p-5 mt-5 '>
     <div className='container bg-dark bg-opacity-50'>
      <h1> Portfolio </h1>
@@ -53,6 +55,16 @@ export default function Portfolio() {
         </a>
       </div>
     </MDBCol>
+    <MDBCol md='4'>
+      <div className="thumbnail ">
+        <a href="https://www.matthewcali.com" target="_blank" rel='noreferrer'>
+         <p className="text-center"><img src={PortfolioPic} alt="portfolio" className='portfoliocard'/> </p>
+          <div className="caption">
+            <p className="text-center text-white portfolio-link">Original Portfolio</p>
+          </div>
+        </a>
+      </div>
+    </MDBCol>
 
 
         </MDBRow>
@@ -64,5 +76,6 @@ export default function Portfolio() {
             </a></p>
        </div> </div></div>
     </MDBContainer>
+    
   )
 }
